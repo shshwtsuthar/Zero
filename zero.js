@@ -13,6 +13,9 @@ bot.loadPlugin(pvp);
 bot.loadPlugin(armorManager);
 bot.loadPlugin(pathfinder);
 
+const {mineflayer: mineflayerViewer} = require('prismarine-viewer')                             bot.once('spawn',()=>{mineflayerViewer(bot,{port:3007,firstPerson:true})
+});
+
 bot.on('playerCollect', (collector, itemDrop) => {
 	if (collector !== bot.entity) 
 	return
