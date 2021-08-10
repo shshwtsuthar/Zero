@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/shshwtsuthar/SpeedBot)](https://github.com/shshwtsuthar/SpeedBot/blob/main/LICENSE) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/shshwtsuthar/ZeroBot)
+[![GitHub license](https://img.shields.io/github/license/shshwtsuthar/SpeedBot)](https://github.com/shshwtsuthar/SpeedBot/blob/main/LICENSE) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/shshwtsuthar/ZeroBot) ![GitHub package.json version](https://img.shields.io/github/package-json/v/shshwtsuthar/ZeroBot?color=orange) [![Requirements Status](https://requires.io/github/shshwtsuthar/ZeroBot/requirements.svg?branch=main)](https://requires.io/github/shshwtsuthar/ZeroBot/requirements/?branch=main)
 # Zero Bot Collection
 This is a collection of Bots made with [Mineflayer](https://github.com/PrismarineJS/mineflayer) and [Node](https://nodejs.org). Mineflayer is a powerful, stable, and high level JavaScript API to create Minecraft bots.
 
