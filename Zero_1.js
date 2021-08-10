@@ -2,6 +2,7 @@ const mineflayer = require('mineflayer');
 const pvp = require('mineflayer-pvp').plugin;
 const {pathfinder,Movements,goals} = require('mineflayer-pathfinder');
 const armorManager = require('mineflayer-armor-manager');
+const mineflayerViewer = require('prismarine-viewer').mineflayer
 
 const bot = mineflayer.createBot({
     host:"swipebedrock.aternos.me",
@@ -13,8 +14,9 @@ bot.loadPlugin(pvp);
 bot.loadPlugin(armorManager);
 bot.loadPlugin(pathfinder);
 
-const {mineflayer: mineflayerViewer} = require('prismarine-viewer')                             bot.once('spawn',()=>{mineflayerViewer(bot,{port:3007,firstPerson:true})
-});
+bot.once('spawn', () => {
+  mineflayerViewer(bot, { port: 3007, firstPerson: false })
+})
 
 bot.on('playerCollect', (collector, itemDrop) => {
 	if (collector !== bot.entity) 
