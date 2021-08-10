@@ -7,9 +7,15 @@ This is a collection of Bots made with [Mineflayer](https://github.com/Prismarin
 - Clone this Repository on your machine using:
 ```git clone https://github.com/shshwtsuthar/ZeroBot```
 - You will also need to install the Node Modules for this to work, so run:
+
 ```npm install mineflayer```
+
 ```npm install mineflayer-pathfinder```
+
 ```npm install mineflayer-pvp```
+
 ```npm install mineflayer-blockfinder```
+
 ```npm install mineflayer-armor-manager```
+
 This will install all the modules required for the Bot to function.
